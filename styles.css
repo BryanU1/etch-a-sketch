@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 50vh;
+  width: 50vh;
+}
+
+.row-container {
+  display: flex;
+  flex: 1;
+}
+
+.unit {
+  flex: 1;
+}
+
+.hovering {
+  background-color: black;
+}
